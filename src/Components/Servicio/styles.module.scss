@@ -1,0 +1,33 @@
+@import '../../Styles/Variables.scss';
+
+.servicioCard {
+    background-color: $amarillo;
+    border-radius: 5px;
+
+    .tituloContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 7px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+
+    .tituloCard {
+        color: $marron_oscuro;
+    }
+
+    svg {
+        cursor: pointer;
+    }
+
+    .descripcionCard {
+        color: $marron;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-weight: 700;
+        opacity: 0.8;
+        padding-bottom: 20px;
+    }
+}

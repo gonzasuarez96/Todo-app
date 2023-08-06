@@ -1,0 +1,14 @@
+@import '../../Styles/Variables.scss';
+
+.serviciosContainer {
+    overflow-y: scroll;
+    background-color: $violeta_claro;
+    width: 550px;
+    height: 100vh;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
